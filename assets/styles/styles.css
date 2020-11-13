@@ -1,0 +1,77 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+}
+.home {
+    background:radial-gradient(#f08a5d,#b83b5e,#6a2c70);
+    padding-left: 50px;
+    padding-top: 200px;
+    font-size: 20px;
+    display: table;
+    height: 900px;
+    width: 100%;
+  }
+  .home h1{
+    padding-top: 100px;
+    font-size: 48px;
+    text-align: center;
+  }
+  .home p{
+    padding:50px;
+  }
+.education {
+    background-image: url("https://manycam.com/blog/wp-content/uploads/2020/08/Blog-online-education-background-ideas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: table;
+    padding: 300px 50px;
+    height: 900px;
+    width: 100%;
+  }
+  .row div img{
+    width: 80px;
+    height: 80px;
+    
+  }
+  .skills div div ul{
+    list-style-type: none;
+  }
+.education h1,
+.skills h1,
+.certifications h1,
+.contact h1 {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.certifications,
+.skills,
+.contact {
+  padding: 300px 50px;
+  display: table;
+  height: 900px;
+  width: 100%;
+  text-align: center;
+}
+.skills {
+    background-image: url("https://www.vtdesignz.com/wp-content/uploads/2016/06/web-design-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.certifications{
+    background-image: url("https://www.threatstack.com/wp-content/uploads/2020/03/cloud-sec-certification-01-768x256.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.certifications div div ul{
+  list-style-type: none;
+  text-align: center;
+}
+.contact{
+    background:linear-gradient(#ff7e67,#68b0ab,#006a71);
+}
